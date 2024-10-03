@@ -3,7 +3,7 @@ import whiteCar from "../../assets/white-car.png";
 import car2 from "../../assets/car5.png";
 import car3 from "../../assets/car6.png";
 
-const carList = [
+const carlist = [
   {
     name: "BMW UX",
     price: 100,
@@ -42,7 +42,7 @@ const CarList = () => {
         {/* Car listing */}
         <div>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-16">
-            {carList.map((data) => (
+            {carlist.map((data) => (
               <div
                 data-aos="fade-up"
                 data-aos-delay={data.aosDelay}
